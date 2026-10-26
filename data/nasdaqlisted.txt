@@ -4175,6 +4175,7 @@ QYLG|Global X Nasdaq 100 Covered Call & Growth ETF|G|N|N|100|Y|N
 RAA|SMI 3Fourteen REAL Asset Allocation ETF|G|N|N|100|Y|N
 RACC|Research Alliance Corporation III - Class A Ordinary Shares|S|N|N|100|N|N
 RACD|Research Alliance Corporation IV - Class A Ordinary Shares|S|N|N|100|N|N
+RADD|AB US Research Advanced ETF|G|N|N|100|Y|N
 RADX|Radiopharm Theranostics Limited - American Depositary Shares|S|N|N|100|N|N
 RAIL|Freightcar America, Inc. - Common Stock|Q|N|N|100|N|N
 RAIN|Rain Enhancement Technologies Holdco, Inc. - Class A Common Stock|S|N|D|100|N|N
@@ -5623,4 +5624,4 @@ ZXYZ.A|Nasdaq Symbology Test Common Stock|Q|Y|N|100|N|N
 ZXZZT|NASDAQ TEST STOCK|G|Y|N|100|N|N
 ZYBT|Zhengye Biotechnology Holding Limited - Class A Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
-File Creation Time: 1026202603:03|||||||
+File Creation Time: 1026202611:01|||||||
