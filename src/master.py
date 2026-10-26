@@ -50,6 +50,7 @@ EXCLUDE_NAME_KEYWORDS = (
     "ordinary",       # 外国普通株 / ADR（Ordinary Shares）
     "acquisition corp",  # SPAC
     "reit",           # REIT
+    "when-issued",    # 新規上場の仮条件付き（when-issued）銘柄
 )
 
 
@@ -60,6 +61,11 @@ def normalize_value(v: object) -> object:
 def is_excluded_name(name: str) -> bool:
     low = name.lower()
     return any(k in low for k in EXCLUDE_NAME_KEYWORDS)
+
+
+def is_excluded_ticker(ticker: str) -> bool:
+    # ティッカーに "$" が入るのは優先株クラス等の特殊銘柄（例: BAC$L）
+    return "$" in ticker
 
 
 def _parse_lines(text: str) -> list[dict]:
@@ -95,7 +101,7 @@ def _row_to_record(fields: dict) -> dict | None:
         if fields.get("Test Issue") != "N" or fields.get("ETF") != "N":
             return None
     name = fields.get("Security Name") or ""
-    if not ticker or is_excluded_name(name):
+    if not ticker or is_excluded_ticker(ticker) or is_excluded_name(name):
         return None
     return {
         "ticker": ticker,

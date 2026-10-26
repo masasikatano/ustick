@@ -15,6 +15,8 @@ File Creation Time: 1026202603:03
 
 OTHERLISTED_SAMPLE = """ACT Symbol|Security Name|Exchange|CQS Symbol|ETF|Round Lot Size|Test Issue|NASDAQ Symbol
 BRK.B|Berkshire Hathaway Inc. Class B Common Stock|N|BRK.B|N|100|N|BRK.B
+BAC$L|Bank of America Corporation Non Cumulative Perpetual Conv Pfd Ser L|N|BACpL|N|10|N|BAC-L
+WI|Some Inc Common Stock When-Issued|N|WI|N|100|N|WI
 XOM|Exxon Mobil Corporation Common Stock|N|XOM|N|100|N|XOM
 SPY|SPDR S&P 500 ETF Trust|P|SPY|Y|100|N|SPY
 ARCA|Some Arca Inc. Common Stock|P|ARCA|N|100|N|ARCA
@@ -38,10 +40,12 @@ def test_parse_otherlisted_exchange_filter():
     assert set(by_ticker) == {"BRK.B", "XOM", "AMEX"}
     assert by_ticker["BRK.B"]["exchange"] == "NYSE"
     assert by_ticker["AMEX"]["exchange"] == "NYSE American"
-    # NYSE Arca（P）は対象外、ユニットも除外
+    # NYSE Arca（P）は対象外、ユニット・優先株（$）・when-issued も除外
     assert "ARCA" not in by_ticker
     assert "UNIT" not in by_ticker
     assert "SPY" not in by_ticker  # ETF フラグ
+    assert "BAC$L" not in by_ticker  # 優先株クラス
+    assert "WI" not in by_ticker  # when-issued
 
 
 def test_footer_line_skipped():
