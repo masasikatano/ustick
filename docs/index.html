@@ -110,6 +110,7 @@
       const close = price && price.close != null ? price.close.toLocaleString("ja-JP", { maximumFractionDigits: 2 }) : "データなし";
       const cls = price && price.close != null ? (chg.c || "") : "miss";
       const vol = price && price.volume != null ? price.volume.toLocaleString("ja-JP") : "—";
+      const asOf = price && price.as_of ? price.as_of.slice(5) : "—";
       return `<tr data-code="${item.ticker}">
         <td class="num">${item.ticker}</td>
         <td class="name-cell" title="${item.name}">${item.name}</td>
@@ -118,6 +119,7 @@
         <td class="num ${cls}">${close}</td>
         <td class="num ${cls}">${chg.t}</td>
         <td class="num">${vol}</td>
+        <td>${asOf}</td>
       </tr>`;
     }
 
@@ -131,7 +133,7 @@
         <thead><tr>
           ${th("ティッカー", "ticker")}${th("銘柄名", "name")}${showCat ? th("セクター", "sector") : ""}
           ${th("取引所", "exchange")}${th("終値（参考値）", "close")}
-          ${th("前日比％", "change_pct")}${th("出来高（参考値）", "volume")}
+          ${th("前日比％", "change_pct")}${th("出来高（参考値）", "volume")}${th("基準日", "as_of")}
         </tr></thead>
         <tbody>${items.map(i => row(i, showCat)).join("")}</tbody>
       </table></div>`;
