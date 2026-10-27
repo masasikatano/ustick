@@ -167,8 +167,17 @@
         return;
       }
       DATA = await res.json();
+      // 実行は UTC 22:12 日〜木 = JST 7:12 月〜金。現在時刻より未来の最初の実行時刻。
+      const nextRun = (() => {
+        const d = new Date(Date.now() + 9 * 3600e3); // JST 相当にシフト
+        d.setUTCDate(d.getUTCDate() + 1);
+        d.setUTCHours(7, 12, 0, 0);
+        while (d.getUTCDay() === 0 || d.getUTCDay() === 6) d.setUTCDate(d.getUTCDate() + 1); // JST の日曜・土曜は除外
+        return new Date(d.getTime() - 9 * 3600e3);
+      })();
+      const nextLabel = fmtJst(nextRun).replace(/ 午前7時12分$/, "");
       document.getElementById("meta").textContent =
-        `最終更新: ${fmtJst(DATA.generated_at)}　銘柄数: ${DATA.count ?? "—"}　価格データ: ${DATA.with_price_count ?? "—"} 銘柄`;
+        `最終更新: ${fmtJst(DATA.generated_at)}（次回更新${nextLabel} 午前7時12分頃）　銘柄数: ${DATA.count ?? "—"}　価格データ: ${DATA.with_price_count ?? "—"} 銘柄`;
       const banner = document.getElementById("banner");
       if (DATA.reference_note) {
         banner.hidden = false;

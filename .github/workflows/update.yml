@@ -4,7 +4,7 @@ on:
   schedule:
     # JST 平日 7:00（JSTは夏時間なし、UTC+9のため UTC 22:00）
     # UTC 22:00 日-木 = JST 7:00 月-金
-    - cron: "0 22 * * 0-4"
+    - cron: "12 22 * * 0-4"
   workflow_dispatch:
 
 permissions:
