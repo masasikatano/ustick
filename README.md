@@ -39,7 +39,7 @@ pytest -q
 
 リポジトリ Settings → Pages → **Deploy from a branch** → Branch: `main`、Folder: `/docs`。
 
-GitHub Actions（`.github/workflows/update.yml`）が平日 22:00 UTC（ET 17:00、夏時間 JST 7:00 / 冬時間 JST 8:00）と `workflow_dispatch` で Yahoo Finance から価格を取り（Stooq はフォールバック）、シンボルディレクトリの差分チェック＆差し替えをして `latest.json` を `[skip ci]` 付きで `main` に push します。API キーは不要のため secret は設定しません。`GITHUB_TOKEN` に `contents: write` が必要です。
+定期更新は Oracle Cloud VM（VM.Standard.E2.1.Micro）の cron が JST 火〜土 14:30（Yahoo の米国日次バー確定＝ET 0:30/1:30 直後。GitHub Actions のスケジュール実行はキューイングで数時間遅延するため移管）に Yahoo Finance から価格を取り（Stooq はフォールバック）、シンボルディレクトリの差分チェック＆差し替えをして `latest.json` を `[skip ci]` 付きで `main` に push します。GitHub Actions（`.github/workflows/update.yml`）は手動 `workflow_dispatch` のみ（VM 停止時の再実行用）。API キーは不要です。
 
 ## プロジェクト構造
 
