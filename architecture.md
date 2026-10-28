@@ -30,7 +30,7 @@
 ## 配信フロー
 
 - ローカル: `run_local.sh` が venv 作成・依存インストール・更新・`docs/` 簡易サーバまで担う。
-- CI/CD: `.github/workflows/update.yml` が平日 22:00 UTC（ET 17:00）に実行し、`[skip ci]` 付きで `main` に push。GitHub Pages（branch `main` / `/docs`）が配信。API キー・secret は不要。
+- CI/CD: `.github/workflows/update.yml` が UTC 4:15 火-土（JST 13:15 火-土。Yahoo の日次バー確定後）に実行し、`[skip ci]` 付きで `main` に push。GitHub Pages（branch `main` / `/docs`）が配信。API キー・secret は不要。
 
 ## 主要な設計判断（変更時は spec.md と照合）
 

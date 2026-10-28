@@ -14,7 +14,7 @@ description: ustick リポジトリ（米国上場個別株一覧サイト）の
 - `src/update.py` — オーケストレーション → `docs/data/latest.json`
 - `docs/index.html` / `docs/common.js` — セクタータブ＋7列テーブルの UI（日本語UI、検索なし）
 - `run_local.sh` — ローカル一括実行（更新 + `docs/` 配信）
-- `.github/workflows/update.yml` — 平日 22:00 UTC の定期更新＆ push（`[skip ci]`）
+- `.github/workflows/update.yml` — UTC 4:15 火-土（JST 13:15 火-土。Yahoo の日次バー確定後）の定期更新＆ push（`[skip ci]`）
 
 ## 不変の設計判断
 - 対象は普通株のみ（ETF/REIT/優先株/ADR/SPAC 等は除外）。フィルタ条件の変更は spec.md 決定事項 1 に従う。

@@ -13,7 +13,7 @@ NYSE・NASDAQ・NYSE American 上場個別株（普通株）のセクター別�
      - Stooq: Yahoo で取得失敗した銘柄のみ、日次CSV（`https://stooq.com/q/d/l/?s={ティッカー}.us&i=d`）の最後の2営業日の close で同様に算出して埋める。APIキー不要。日次バー全体は latest.json に保持しない。
 
 2. **更新スケジュール**
-   - 日次1回。平日 22:00 UTC（ET 17:00、夏時間 JST 7:00 / 冬時間 JST 8:00）と `workflow_dispatch` で Actions を回し、米国市場クローズ直後の確定値で (a) Yahoo Finance から価格取得（Stooq フォールバック）、(b) マスタの差分チェック＆差し替え。
+   - 日次1回。**Yahoo の日次バー確定（ET で当日分が揃うのは翌日未明頃）を待って**、UTC 4:15 火-土（JST 13:15 火-土、ET 前日 23:15 / 当日 0:15）と `workflow_dispatch` で Actions を回し、米国市場クローズ後の確定値で (a) Yahoo Finance から価格取得（Stooq フォールバック）、(b) マスタの差分チェック＆差し替え。
    - `[skip ci]` 付きで main に push（jptick 同様）。
 
 3. **セクター区分**
