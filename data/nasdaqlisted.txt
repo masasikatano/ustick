@@ -4442,6 +4442,7 @@ SCOR|comScore, Inc. - Common Stock|Q|N|N|100|N|N
 SCPQ|Social Commerce Partners Corporation - Class A Ordinary Shares|G|N|N|100|N|N
 SCPQU|Social Commerce Partners Corporation - Unit|G|N|N|100|N|N
 SCPQW|Social Commerce Partners Corporation - Warrant|G|N|N|100|N|N
+SCQCU|SPACCircle Acquisition Corp. - Units|G|N|N|100|N|N
 SCSC|ScanSource, Inc. - Common Stock|Q|N|N|100|N|N
 SCTX|Scribe Therapeutics Inc. - Common Stock|G|N|N|100|N|N
 SCWO|374Water Inc. - common stock|S|N|N|100|N|N
@@ -5563,6 +5564,7 @@ YQQQ|YieldMax Short N100 Option Income Strategy ETF|G|N|N|100|Y|N
 YRAM|YieldMax Memory and Storage Portfolio Option Income ETF|G|N|N|100|Y|N
 YSAG|Y'all Street Physical Silver ETF|G|N|N|100|Y|N
 YSAU|Y'all Street Physical Gold ETF|G|N|N|100|Y|N
+YSKH|YieldMax SKHY Option Income Strategy ETF|G|N|N|100|Y|N
 YSPY|GraniteShares YieldBOOST SPY ETF|G|N|N|100|Y|N
 YSWY|Yesway, Inc. - Class A Common Stock|Q|N|N|100|N|N
 YSXT|YSX Tech. Co., Ltd  - Class A Ordinary Shares|S|N|N|100|N|N
@@ -5618,4 +5620,4 @@ ZXYZ.A|Nasdaq Symbology Test Common Stock|Q|Y|N|100|N|N
 ZXZZT|NASDAQ TEST STOCK|G|Y|N|100|N|N
 ZYBT|Zhengye Biotechnology Holding Limited - Class A Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
-File Creation Time: 1027202603:03|||||||
+File Creation Time: 1027202618:01|||||||
