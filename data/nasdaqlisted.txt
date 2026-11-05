@@ -127,7 +127,7 @@ AEBI|Aebi Schmidt Holding AG - Common Stock|Q|N|N|100|N|N
 AEC|Anfield Energy Inc. - Common Shares|S|N|N|100|N|N
 AEHL|Antelope Enterprise Holdings Limited - Class A Ordinary Shares|S|N|N|100|N|N
 AEHR|Aehr Test Systems - Common Stock|S|N|N|100|N|N
-AEI|Alset Inc. - Common Stock|S|N|N|100|N|N
+AEI|Alset Inc. - Common Stock|S|N|D|100|N|N
 AEIS|Advanced Energy Industries, Inc. - Common Stock|Q|N|N|40|N|N
 AEMD|Aethlon Medical, Inc. - Common Stock|S|N|N|100|N|N
 AENT|Alliance Entertainment Holding Corporation - common stock|S|N|N|100|N|N
@@ -544,7 +544,7 @@ BABX|GraniteShares 2x Long BABA Daily ETF|G|N|N|100|Y|N
 BACC|Blue Acquisition Corp. - Class A Ordinary Shares|G|N|N|100|N|N
 BACCR|Blue Acquisition Corp. - Right|G|N|N|100|N|N
 BACCU|Blue Acquisition Corp. - Unit|G|N|N|100|N|N
-BAER|Bridger Aerospace Group Holdings, Inc. - Common Stock|G|N|N|100|N|N
+BAER|Bridger Aerospace Group Holdings, Inc. - Common Stock|G|N|D|100|N|N
 BAERW|Bridger Aerospace Group Holdings, Inc. - Warrant|G|N|N|100|N|N
 BAFE|Brown Advisory Flexible Equity ETF|G|N|N|100|Y|N
 BAFN|BayFirst Financial Corp. - Common Stock|S|N|N|100|N|N
@@ -2111,8 +2111,8 @@ GLDI|ETRACS Gold Shares Covered Call ETNs due February 2, 2033|G|N|N|100|Y|N
 GLE|Global Engine Group Holding Limited - Class A Ordinary Shares|S|N|N|100|N|N
 GLIBA|Liberty Capital Corporation - Series A GCI Group Common Stock|Q|N|N|100|N|N
 GLIBK|Liberty Capital Corporation - Series C GCI Group Common Stock|Q|N|N|100|N|N
-GLND|Greenland Energy Company - Common Stock|G|N|N|100|N|N
-GLNDW|Greenland Energy Company - Warrant|G|N|N|100|N|N
+GLND|Greenland Energy Company - Common Stock|G|N|D|100|N|N
+GLNDW|Greenland Energy Company - Warrant|G|N|D|100|N|N
 GLNG|Golar LNG Limited - Common Shares|Q|N|N|100|N|N
 GLOO|Gloo Holdings, Inc. - Common Stock|Q|N|N|100|N|N
 GLOW|VictoryShares WestEnd Global Equity ETF|G|N|N|100|Y|N
@@ -2133,7 +2133,6 @@ GNMA|iShares GNMA Bond ETF|G|N|N|100|Y|N
 GNOM|Global X Genomics & Biotechnology ETF|G|N|N|100|Y|N
 GNPX|Genprex, Inc. - Common Stock|S|N|N|100|N|N
 GNSS|Genasys Inc. - Common Stock|S|N|N|100|N|N
-GNTA|Genenta Science S.p.A. - American Depositary Shares|S|N|D|100|N|N
 GNTX|Gentex Corporation - Common Stock|Q|N|N|100|N|N
 GO|Grocery Outlet Holding Corp. - Common Stock|Q|N|N|100|N|N
 GOAI|Eva Live Inc. - Common Stock|S|N|N|100|N|N
@@ -2558,6 +2557,7 @@ INEO|INNEOVA Holdings Limited - Class A Ordinary Shares|S|N|D|100|N|N
 INGN|Inogen, Inc - Common Stock|Q|N|N|100|N|N
 INHD|Inno Holdings Inc. - Common Stock|S|N|N|100|N|N
 INIO|INNIO N.V. - Ordinary Shares|Q|N|N|100|N|N
+INK|AB Equity Premium Income ETF|G|N|N|100|Y|N
 INKT|MiNK Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 INLF|INLIF LIMITED - Class A Ordinary shares|S|N|N|100|N|N
 INM|InMed Pharmaceuticals Inc. - Common Shares|S|N|D|100|N|N
@@ -2850,7 +2850,7 @@ LAND|Gladstone Land Corporation - Common Stock|G|N|N|100|N|N
 LANDO|Gladstone Land Corporation - 6.00% Series B Cumulative Redeemable Preferred Stock|G|N|N|100|N|N
 LANDP|Gladstone Land Corporation - 6.00% Series C Cumulative Redeemable Preferred Stock|G|N|N|100|N|N
 LARK|Landmark Bancorp Inc. - Common Stock|G|N|N|100|N|N
-LASE|Laser Photonics Corporation - Common Stock|S|N|D|100|N|N
+LASE|LASE Corp. - Common Stock|S|N|D|100|N|N
 LASR|nLIGHT, Inc. - Common Stock|Q|N|N|100|N|N
 LATA|Galata Acquisition Corp. II - Class A Ordinary Shares|G|N|N|100|N|N
 LATAU|Galata Acquisition Corp. II - Units|G|N|N|100|N|N
@@ -2963,7 +2963,7 @@ LOGO|Alpha Brands Consumption Leaders ETF|G|N|N|100|Y|N
 LONA|LeonaBio, Inc. - Common Stock|S|N|N|100|N|N
 LOOP|Loop Industries, Inc. - Common Stock|G|N|D|100|N|N
 LOPE|Grand Canyon Education, Inc. - Common Stock|Q|N|N|100|N|N
-LOT|Lotus Technology Inc. - American Depositary Shares|Q|N|N|100|N|N
+LOT|Lotus Technology Inc. - American Depositary Shares|Q|N|D|100|N|N
 LOTI|Liberty One Tactical Income ETF|G|N|N|100|Y|N
 LOTWW|Lotus Technology Inc. - Warrants|S|N|N|100|N|N
 LOVE|The Lovesac Company - Common Stock|G|N|N|100|N|N
@@ -4383,6 +4383,7 @@ SAAQU|Space Asset Acquisition Corp. - Units|G|N|N|100|N|N
 SAAQW|Space Asset Acquisition Corp. - Warrants|G|N|N|100|N|N
 SABR|Sabre Corporation - Common Stock|Q|N|N|100|N|N
 SABS|SAB Biotherapeutics, Inc. - Common Stock|S|N|N|100|N|N
+SAEN|Genenta Science S.p.A. - American Depositary Shares|S|N|D|100|N|N
 SAFT|Safety Insurance Group, Inc. - Common Stock|Q|N|N|100|N|N
 SAFX|XCF Global, Inc. - Class A Common Stock|S|N|D|100|N|N
 SAGT|SAGTEC GLOBAL LIMITED - Class A Ordinary shares|S|N|D|100|N|N
@@ -4457,7 +4458,7 @@ SEDG|SolarEdge Technologies, Inc. - Common Stock|Q|N|N|100|N|N
 SEED|Origin Agritech Limited - Ordinary Shares|S|N|D|100|N|N
 SEEM|SEI Select Emerging Markets Equity ETF|G|N|N|100|Y|N
 SEER|Seer, Inc. - Class A Common Stock|Q|N|N|100|N|N
-SEGG|Sports Entertainment Gaming Global Corporation  - Common Stock|G|N|E|100|N|N
+SEGG|Sports Entertainment Gaming Global Corporation  - Common Stock|G|N|N|100|N|N
 SEIC|SEI Investments Company - Common Stock|Q|N|N|100|N|N
 SEIE|SEI Select International Equity ETF|G|N|N|100|Y|N
 SEIS|SEI Select Small Cap ETF|G|N|N|100|Y|N
@@ -5607,4 +5608,4 @@ ZXYZ.A|Nasdaq Symbology Test Common Stock|Q|Y|N|100|N|N
 ZXZZT|NASDAQ TEST STOCK|G|Y|N|100|N|N
 ZYBT|Zhengye Biotechnology Holding Limited - Class A Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
-File Creation Time: 1103202621:31|||||||
+File Creation Time: 1104202621:31|||||||
