@@ -11,12 +11,14 @@ RECORDS = [
      "fields": {"ACT Symbol": "ZZZZ", "Security Name": "取得対象外銘柄 Common Stock"}},
 ]
 
-# 価格は「ティッカー → {close, change_pct, volume, as_of, sector}」の最小形
+# 価格は「ティッカー → {close, change_pct, volume, as_of, sector, avg_volume_20d, rvol}」
 PRICES = {
     "AAPL": {"close": 255.0, "change_pct": round((255.0 / 250.0 - 1) * 100, 3),
-             "volume": 1200, "as_of": "2026-10-23", "sector": "Technology"},
+             "volume": 1200, "as_of": "2026-10-23", "sector": "Technology",
+             "avg_volume_20d": 1000.0, "rvol": 1.2},
     "XOM": {"close": 120.0, "change_pct": None,
-            "volume": None, "as_of": "2026-10-23", "sector": None},
+            "volume": None, "as_of": "2026-10-23", "sector": None,
+            "avg_volume_20d": None, "rvol": None},
 }
 
 
@@ -45,6 +47,17 @@ def test_schema():
     counts = [n for _, n in cats]
     assert counts == sorted(counts, reverse=True)
     assert p["reference_date"] == "2026-10-23"
+    # 価格オブジェクトは avg_volume_20d・rvol を持ち、日次バーは持たない
+    assert aapl["price"]["avg_volume_20d"] == 1000.0
+    assert aapl["price"]["rvol"] == 1.2
+    assert by_ticker["XOM"]["price"]["avg_volume_20d"] is None
+    assert by_ticker["XOM"]["price"]["rvol"] is None
+    # 旧形式（新キーなし）も None 補完される
+    p2 = build_payload(RECORDS[:1], {"AAPL": {"close": 255.0, "change_pct": 1.0,
+                                              "volume": 1200, "as_of": "2026-10-23",
+                                              "sector": "Technology"}})
+    assert p2["items"][0]["price"]["avg_volume_20d"] is None
+    assert p2["items"][0]["price"]["rvol"] is None
     # 免責表現は USD を明記
     assert "USD" in p["reference_note"]
     assert "2026-10-23" in p["reference_note"]

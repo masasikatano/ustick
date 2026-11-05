@@ -1,6 +1,6 @@
 """Yahoo Finance から終値・前日比・セクターを取得する（主データソース）。
 
-価格エンドポイント: https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=5d
+価格エンドポイント: https://query1.finance.yahoo.com/v8/finance/chart/{symbol}?interval=1d&range=1mo
 米国株のためティッカーは接尾辞なし（ティッカーの "." は Yahoo 形式の "-" に置換。
 
 セクターエンドポイント: https://query1.finance.yahoo.com/v10/finance/quoteSummary/{symbol}?modules=assetProfile
@@ -46,11 +46,13 @@ def symbol(ticker: str) -> str:
 
 
 def parse_chart(data: dict) -> dict | None:
-    """chart API レスポンスから終値・前日比・出来高・基準日を算出する。
+    """chart API レスポンスから終値・前日比・出来高・基準日・平均出来高・RVol を算出する。
 
     close 配列の最後の2点から (P_n/P_{n-1}-1)*100 を計算する。
     出来高は close と同じ最終ポイントの volume を採用し、
     最終点が None の場合は直近の有効値にフォールバックする。
+    avg_volume_20d は出来高の直近20営業日の有効値の平均（有効値がなければ None）。
+    rvol は volume / avg_volume_20d（算出不可は None）。
     取得できない場合は None を返す。
     """
     try:
@@ -76,11 +78,22 @@ def parse_chart(data: dict) -> dict | None:
             if v is not None:
                 volume = int(v)
                 break
+    avg_volume_20d = None
+    if volumes:
+        valid = [int(v) for v in volumes[:len(points)] if v is not None]
+        tail = valid[-20:]
+        if tail:
+            avg_volume_20d = float(sum(tail) / len(tail))
+    rvol = None
+    if volume is not None and avg_volume_20d:
+        rvol = round(volume / avg_volume_20d, 2)
     return {
         "close": float(last_close),
         "change_pct": change_pct,
         "volume": volume,
         "as_of": date.fromtimestamp(last_ts).isoformat(),
+        "avg_volume_20d": avg_volume_20d,
+        "rvol": rvol,
     }
 
 
@@ -129,7 +142,7 @@ def _fetch_one(ticker: str, session: requests.Session, crumb: _CrumbClient,
     last: Exception | None = None
     for attempt in range(retries):
         try:
-            res = session.get(url, params={"interval": "1d", "range": "5d"}, timeout=30)
+            res = session.get(url, params={"interval": "1d", "range": "1mo"}, timeout=30)
             res.raise_for_status()
             parsed = parse_chart(res.json())
             if parsed is None:
@@ -163,7 +176,8 @@ def fetch_prices(tickers: list[str], session: requests.Session | None = None) ->
     """ティッカーごとの終値・前日比・出来高・セクターを取得する。
 
     戻り値: { "ティッカー": {"close": float, "change_pct": float|None,
-             "volume": int|None, "as_of": "YYYY-MM-DD", "sector": str|None}, ... }
+             "volume": int|None, "as_of": "YYYY-MM-DD", "sector": str|None,
+             "avg_volume_20d": float|None, "rvol": float|None}, ... }
     取得失敗・除外銘柄は戻り値に含めない（呼び出し側で Stooq →「データなし」扱い）。
     """
     session = session or requests.Session()

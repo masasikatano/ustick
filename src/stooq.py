@@ -51,6 +51,9 @@ def parse_csv(text: str) -> dict | None:
         "change_pct": change_pct,
         "volume": volume,
         "as_of": last["Date"],
+        "sector": None,
+        "avg_volume_20d": None,
+        "rvol": None,
     }
 
 
@@ -78,7 +81,8 @@ def fetch_prices(tickers: list[str], session: requests.Session | None = None) ->
     """ティッカーごとの終値・前日比を Stooq で取得する（Yahoo 失敗銘柄のみに使う）。
 
     戻り値: { "ティッカー": {"close": float, "change_pct": float|None,
-             "volume": int|None, "as_of": "YYYY-MM-DD"}, ... }
+             "volume": int|None, "as_of": "YYYY-MM-DD", "sector": None,
+             "avg_volume_20d": None, "rvol": None}, ... }
     取得失敗銘柄は戻り値に含めない（呼び出し側で「データなし」扱い）。
     """
     session = session or requests.Session()

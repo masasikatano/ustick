@@ -39,13 +39,25 @@ def load_dotenv() -> None:
 
 
 def build_payload(records: list[dict], prices: dict[str, dict]) -> dict:
-    """prices: { "ティッカー": {"close", "change_pct", "volume", "as_of", "sector"} }。
+    """prices: { "ティッカー": {"close", "change_pct", "volume", "as_of", "sector",
+    "avg_volume_20d", "rvol"} }。旧形式（新キーなし）も受け付け None 補完する。
     取得失敗銘柄はキーなし（price=None で行を残す）。"""
 
     items: list[dict] = []
     as_of_dates: list[str] = []
     for rec in records:
-        price = prices.get(rec["ticker"])
+        raw = prices.get(rec["ticker"])
+        price = None
+        if raw is not None:
+            price = {
+                "close": raw.get("close"),
+                "change_pct": raw.get("change_pct"),
+                "volume": raw.get("volume"),
+                "as_of": raw.get("as_of"),
+                "sector": raw.get("sector"),
+                "avg_volume_20d": raw.get("avg_volume_20d"),
+                "rvol": raw.get("rvol"),
+            }
         item = {
             "ticker": rec["ticker"],
             "name": rec["name"],
