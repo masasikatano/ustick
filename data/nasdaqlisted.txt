@@ -621,8 +621,8 @@ BEEZ|Honeytree U.S. Equity ETF|G|N|N|100|Y|N
 BEG|Leverage Shares 2x Long BE Daily ETF|G|N|N|100|Y|N
 BELFA|Bel Fuse Inc. - Class A Common Stock|Q|N|N|100|N|N
 BELFB|Bel Fuse Inc. - Class B Common Stock|Q|N|N|100|N|N
-BENF|Beneficient - Class A Common Stock|S|N|N|100|N|N
-BENFW|Beneficient - Warrant|S|N|N|100|N|N
+BENF|Beneficient - Class A Common Stock|S|N|D|100|N|N
+BENFW|Beneficient - Warrant|S|N|D|100|N|N
 BESO|GSR Crypto Core3 ETF|G|N|N|100|Y|N
 BETR|Better Home & Finance Holding Company - Class A Common Stock|G|N|D|100|N|N
 BETRW|Better Home & Finance Holding Company - Warrant|G|N|D|100|N|N
@@ -1245,6 +1245,7 @@ CRMD|CorMedix Inc. - Common Stock|G|N|N|100|N|N
 CRMG|Leverage Shares 2X Long CRM Daily ETF|G|N|N|100|Y|N
 CRML|Critical Metals Corp. - Ordinary Shares|G|N|N|100|N|N
 CRMLW|Critical Metals Corp. - Warrants|S|N|N|100|N|N
+CRMN|Skyline Builders Group Holding Limited - Class A Ordinary Shares|S|N|N|100|N|N
 CRMT|America's Car-Mart, Inc. - Common Stock|Q|N|N|100|N|N
 CRNC|Cerence Inc. - Common Stock|Q|N|N|100|N|N
 CRNT|Ceragon Networks Ltd. - Ordinary Shares|Q|N|N|100|N|N
@@ -2737,7 +2738,6 @@ KALU|Kaiser Aluminum Corporation - Common Stock|Q|N|N|100|N|N
 KARD|Kardigan, Inc. - Common Stock|G|N|N|100|N|N
 KARO|Karooooo Ltd. - Ordinary shares|S|N|N|100|N|N
 KAT|Scharf ETF|G|N|N|100|Y|N
-KAZR|Skyline Builders Group Holding Limited - Class A Ordinary Shares|S|N|N|100|N|N
 KBON|Karbon Capital Partners Corp. - Class A Ordinary Shares|G|N|N|100|N|N
 KBONU|Karbon Capital Partners Corp. - Units|G|N|N|100|N|N
 KBONW|Karbon Capital Partners Corp. - Warrant|G|N|N|100|N|N
@@ -3562,7 +3562,6 @@ NXTC|NextCure, Inc. - Common Stock|Q|N|N|100|N|N
 NXTG|First Trust Indxx NextG ETF|G|N|N|100|Y|N
 NXTS|Nexentis Technologies Inc. - Common Stock|S|N|D|100|N|N
 NXTT|Next Technology Holding Inc. - Ordinary Shares|S|N|N|100|N|N
-NXXT|NextNRG, Inc. - Common Stock|S|N|N|100|N|N
 NYAX|Nayax Ltd. - Ordinary Shares|Q|N|N|100|N|N
 NYXH|Nyxoah SA - Ordinary Shares|G|N|N|100|N|N
 NZAC|State Street SPDR MSCI ACWI Climate Paris Aligned ETF|G|N|N|100|Y|N
@@ -3635,7 +3634,7 @@ OMAB|Grupo Aeroportuario del Centro Norte S.A.B. de C.V. - American Depositary S
 OMCL|Omnicell, Inc. - Common Stock|Q|N|N|100|N|N
 OMDA|Omada Health, Inc. - Common Stock|Q|N|N|100|N|N
 OMER|Omeros Corporation - Common Stock|G|N|N|100|N|N
-OMEX|Odyssey Marine Exploration, Inc. - Common Stock|S|N|D|100|N|N
+OMEX|Odyssey Marine Exploration, Inc. - Common Stock|S|N|N|100|N|N
 OMH|Ohmyhome Limited - Class A Ordinary Shares|S|N|N|100|N|N
 OMSE|OMS Energy Technologies Inc. - Ordinary Shares|S|N|N|100|N|N
 ON|ON Semiconductor Corporation - Common Stock|Q|N|N|100|N|N
@@ -4167,7 +4166,7 @@ RAND|Rand Capital Corporation - Closed End Fund|S|N|N|100|N|N
 RANG|Range Capital Acquisition Corp. - Ordinary Shares|G|N|D|100|N|N
 RANGR|Range Capital Acquisition Corp. - Rights|G|N|N|100|N|N
 RANGU|Range Capital Acquisition Corp. - Units|G|N|N|100|N|N
-RANI|Rani Therapeutics Holdings, Inc. - Class A Common Stock|G|N|D|100|N|N
+RANI|Rani Therapeutics Holdings, Inc. - Class A Common Stock|S|N|D|100|N|N
 RAPP|Rapport Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 RARE|Ultragenyx Pharmaceutical Inc. - Common Stock|Q|N|N|100|N|N
 RAUS|RACWI US ETF|G|N|N|100|Y|N
@@ -4955,7 +4954,7 @@ TNONW|Tenon Medical, Inc. - Warrant|S|N|N|100|N|N
 TNXP|Tonix Pharmaceuticals Holding Corp. - Common Stock|Q|N|N|100|N|N
 TNXT|T. Rowe Price Innovation Leaders ETF|G|N|N|100|Y|N
 TNYA|Tenaya Therapeutics, Inc. - Common Stock|S|N|D|100|N|N
-TOMZ|TOMI Environmental Solutions, Inc. - Common Stock|S|N|D|100|N|N
+TOMZ|TOMI Environmental Solutions, Inc. - Common Stock|S|N|N|100|N|N
 TONX|TON Strategy Company - Common Stock|S|N|N|100|N|N
 TOP|TOP Financial Group Limited - Class A Ordinary Shares|S|N|N|100|N|N
 TORK|KraneShares Actuator ETF|G|N|N|100|Y|N
@@ -5605,4 +5604,4 @@ ZXYZ.A|Nasdaq Symbology Test Common Stock|Q|Y|N|100|N|N
 ZXZZT|NASDAQ TEST STOCK|G|Y|N|100|N|N
 ZYBT|Zhengye Biotechnology Holding Limited - Class A Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
-File Creation Time: 1111202621:31|||||||
+File Creation Time: 1112202621:31|||||||
