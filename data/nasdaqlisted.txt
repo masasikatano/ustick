@@ -481,7 +481,7 @@ ATRO|Astronics Corporation - Common Stock|Q|N|N|100|N|N
 ATTO|Attovia Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 ATTT|Atlas Trinity Tech Limited - Ordinary Shares|S|N|N|100|N|N
 ATXG|Addentax Group Corp. - Common Stock|S|N|N|100|N|N
-ATYR|aTyr Pharma, Inc. - Common Stock|S|N|D|100|N|N
+ATYR|aTyr Pharma, Inc. - Common Stock|S|N|N|100|N|N
 AUBN|Auburn National Bancorporation, Inc. - Common Stock|G|N|N|100|N|N
 AUC|ATIF Holdings Limited - Ordinary Shares|S|N|N|100|N|N
 AUDC|AudioCodes Ltd. - Ordinary Shares|Q|N|N|100|N|N
@@ -705,7 +705,7 @@ BLIV|BeLive Holdings - ordinary shares|S|N|N|100|N|N
 BLKB|Blackbaud, Inc. - Common Stock|Q|N|N|100|N|N
 BLLN|BillionToOne, Inc. - Class A common stock|Q|N|N|100|N|N
 BLMN|Bloomin' Brands, Inc. - Common Stock|Q|N|N|100|N|N
-BLNE|Beeline Holdings, Inc. - Common Stock|S|N|N|100|N|N
+BLNE|Beeline Holdings, Inc. - Common Stock|S|N|D|100|N|N
 BLNK|Blink Charging Co. - Common Stock|S|N|D|100|N|N
 BLRK|Bluerock Acquisition Corp. - Class A Ordinary Shares|G|N|N|100|N|N
 BLRKU|Bluerock Acquisition Corp. - Units|G|N|N|100|N|N
@@ -1111,7 +1111,6 @@ CLBK|Columbia Financial, Inc. - Common Stock|Q|N|N|100|N|N
 CLBT|Cellebrite DI Ltd. - Ordinary Shares|Q|N|N|100|N|N
 CLDX|Celldex Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 CLFD|Clearfield, Inc. - Common Stock|G|N|N|100|N|N
-CLGN|CollPlant Biotechnologies Ltd. - Ordinary Shares|S|N|N|100|N|N
 CLIK|Click Holdings Limited - Ordinary Share|S|N|N|100|N|N
 CLIR|ClearSign Technologies Corporation - Common Stock|S|N|N|100|N|N
 CLLS|Cellectis S.A. - American Depositary Shares|G|N|N|100|N|N
@@ -1760,8 +1759,6 @@ FCUV|Focus Universal Inc. - Common Stock|S|N|N|100|N|N
 FCVT|First Trust SSI Strategic Convertible Securities ETF|G|N|N|100|Y|N
 FDBC|Fidelity D & D Bancorp, Inc. - Common Stock|G|N|N|100|N|N
 FDCF|Fidelity Disruptive Communications ETF|G|N|N|100|Y|N
-FDFF|Fidelity Disruptive Finance ETF|G|N|N|100|Y|N
-FDIF|Fidelity Disruptors ETF|G|N|N|100|Y|N
 FDIG|Fidelity Crypto Industry and Digital Payments ETF|G|N|N|100|Y|N
 FDIQ|Invesco Bloomberg Financial Data Providers ETF|G|N|N|100|Y|N
 FDIV|MarketDesk Focused U.S. Dividend ETF|G|N|N|100|Y|N
@@ -1869,8 +1866,6 @@ FMACU|Future Money Acquisition Corporation - Units|G|N|E|100|N|N
 FMAO|Farmers & Merchants Bancorp, Inc. - Common Stock|S|N|N|100|N|N
 FMB|First Trust Managed Municipal ETF|G|N|N|100|Y|N
 FMBH|First Mid Bancshares, Inc. - Common Stock|G|N|N|100|N|N
-FMED|Fidelity Disruptive Medicine ETF|G|N|N|100|Y|N
-FMET|Fidelity Metaverse ETF|G|N|N|100|Y|N
 FMFC|Kandal M Venture Limited - Class A ordinary Shares|S|N|D|100|N|N
 FMHI|First Trust Municipal High Income ETF|G|N|N|100|Y|N
 FMNB|Farmers National Banc Corp. - Common Stock|S|N|N|100|N|N
@@ -2307,7 +2302,7 @@ HISF|First Trust High Income Strategic Focus ETF|G|N|N|100|Y|N
 HIT|Health In Tech, Inc. - Class A Common Stock|S|N|D|100|N|N
 HITI|High Tide Inc. - Common Shares|S|N|N|100|N|N
 HIVE|HIVE Digital Technologies Ltd - Common Shares|S|N|N|100|N|N
-HKPD|Cellyan Biotechnology Co., Ltd  - Class A Ordinary Shares|S|N|D|100|N|N
+HKPD|Cellyan Biotechnology Co., Ltd  - Class A Ordinary Shares|S|N|N|100|N|N
 HLAL|Wahed FTSE USA Shariah ETF|G|N|N|100|Y|N
 HLIT|Harmonic Inc. - Common Stock|Q|N|N|100|N|N
 HLMN|Hillman Solutions Corp. - Common Stock|G|N|N|100|N|N
@@ -2963,10 +2958,12 @@ LOT|Lotus Technology Inc. - American Depositary Shares|Q|N|D|100|N|N
 LOTI|Liberty One Tactical Income ETF|G|N|N|100|Y|N
 LOTWW|Lotus Technology Inc. - Warrants|S|N|N|100|N|N
 LOVE|The Lovesac Company - Common Stock|G|N|N|100|N|N
+LOVI|Live Oak Acquisition Corp. VI - Class A Ordinary Shares|G|N|N|100|N|N
 LOVIU|Live Oak Acquisition Corp. VI - Units|G|N|N|100|N|N
-LPAA|Launch One Acquisition Corp. - Class A Ordinary Shares|G|N|N|100|N|N
-LPAAU|Launch One Acquisition Corp. - Unit|G|N|N|100|N|N
-LPAAW|Launch One Acquisition Corp. - Warrant|G|N|N|100|N|N
+LOVIW|Live Oak Acquisition Corp. VI - Warrants|G|N|N|100|N|N
+LPAA|Launch One Acquisition Corp. - Class A Ordinary Shares|G|N|D|100|N|N
+LPAAU|Launch One Acquisition Corp. - Unit|G|N|D|100|N|N
+LPAAW|Launch One Acquisition Corp. - Warrant|G|N|D|100|N|N
 LPBB|Launch Two Acquisition Corp. - Class A Ordinary Shares|G|N|N|100|N|N
 LPBBU|Launch Two Acquisition Corp. - Unit|G|N|N|100|N|N
 LPBBW|Launch Two Acquisition Corp. - Warrant|G|N|N|100|N|N
@@ -3627,7 +3624,7 @@ OKYO|OKYO Pharma Limited - Ordinary Shares|S|N|N|100|N|N
 OLB|The OLB Group, Inc. - Common Stock|S|N|D|100|N|N
 OLED|Universal Display Corporation - Common Stock|Q|N|N|100|N|N
 OLLI|Ollie's Bargain Outlet Holdings, Inc. - Common Stock|G|N|N|100|N|N
-OLMA|Olema Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
+OLMA|Olema Oncology, Inc. - Common Stock|Q|N|N|100|N|N
 OLOX|Olenox Industries Inc. - Common Stock|S|N|N|100|N|N
 OM|Outset Medical, Inc. - Common Stock|Q|N|N|100|N|N
 OMAB|Grupo Aeroportuario del Centro Norte S.A.B. de C.V. - American Depositary Shares each representing 8 Series B shares|Q|N|N|100|N|N
@@ -3665,6 +3662,7 @@ OPEN|Opendoor Technologies Inc  - Common Stock|Q|N|N|100|N|N
 OPENL|Opendoor Technologies Inc  - Series A Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $13.00 per warrant|Q|N|N|100|N|N
 OPENW|Opendoor Technologies Inc  - Series K Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $9.00 per warrant|Q|N|N|100|N|N
 OPENZ|Opendoor Technologies Inc  - Series Z Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $17.00 per warrant|Q|N|N|100|N|N
+OPHI|CollPlant Biotechnologies Ltd. - Ordinary Shares|S|N|N|100|N|N
 OPI|Office Properties Income Trust - Common shares of beneficial interest|S|N|N|100|N|N
 OPK|Opko Health, Inc. - Common Stock|Q|N|N|100|N|N
 OPNW|OpenWorld, Inc. - Common Stock|S|N|D|100|N|N
@@ -4024,7 +4022,6 @@ PTF|Invesco Dorsey Wright Technology Momentum ETF|G|N|N|100|Y|N
 PTGX|Protagonist Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
 PTH|Invesco Dorsey Wright Healthcare Momentum ETF|G|N|N|100|Y|N
 PTIR|GraniteShares 2x Long PLTR Daily ETF|G|N|N|100|Y|N
-PTLE|PTL LTD - Class A Ordinary Shares|S|N|N|100|N|N
 PTLO|Portillo's Inc. - Class A Common Stock|Q|N|N|100|N|N
 PTN|Palatin Technologies, Inc. - Common Stock|S|N|N|100|N|N
 PTNQ|Pacer Trendpilot 100 ETF|G|N|N|100|Y|N
@@ -4068,7 +4065,7 @@ QBTZ|Defiance Daily Target 2x Short QBTS ETF|G|N|N|100|Y|N
 QBUF|Innovator Nasdaq-100 10 Buffer ETF Quarterly|G|N|N|100|Y|N
 QBY|GraniteShares YieldBoost QBTS ETF|G|N|N|100|Y|N
 QCLN|First Trust NASDAQ Clean Edge Green Energy Index Fund|G|N|N|100|Y|N
-QCLS|Q/C Technologies, Inc. - Common Stock|S|N|N|100|N|N
+QCLS|Q/C Technologies, Inc. - Common Stock|S|N|D|100|N|N
 QCMD|Direxion Daily QCOM Bear 1X ETF|G|N|N|100|Y|N
 QCML|GraniteShares 2x Long QCOM Daily ETF|G|N|N|100|Y|N
 QCMU|Direxion Daily QCOM Bull 2X ETF|G|N|N|100|Y|N
@@ -5365,7 +5362,7 @@ WETO|Wetour Robotics Limited - Ordinary Shares|S|N|N|100|N|N
 WEYS|Weyco Group, Inc. - Common Stock|Q|N|N|100|N|N
 WFCF|Where Food Comes From, Inc. - Common Stock|S|N|N|100|N|N
 WFF|WF Holding Limited - Ordinary Shares|S|N|N|100|N|N
-WFRD|Weatherford International plc - Ordinary shares|Q|N|N|100|N|N
+WFRD|Weatherford International Corp - Common Stock|Q|N|N|100|N|N
 WGMI|CoinShares Bitcoin Mining and Digital Power ETF|G|N|N|100|Y|N
 WGS|GeneDx Holdings Corp. - Class A Common Stock|Q|N|N|100|N|N
 WHF|WhiteHorse Finance, Inc. - Closed End Fund|Q|N|N|100|N|N
@@ -5439,6 +5436,7 @@ WVE|Wave Life Sciences, Inc. - Common Stock|G|N|N|100|N|N
 WVVI|Willamette Valley Vineyards, Inc. - Common Stock|S|N|N|100|N|N
 WVVIP|Willamette Valley Vineyards, Inc. - Series A Redeemable Preferred Stock|S|N|N|100|N|N
 WW|WW International, Inc.  - Common Stock|G|N|N|100|N|N
+WWB|Windward Bio Group AG - Common shares|Q|N|N|100|N|N
 WWD|Woodward, Inc. - Common Stock|Q|N|N|40|N|N
 WXM|WF International Limited - Ordinary Shares|S|N|N|100|N|N
 WYFI|WhiteFiber, Inc. - Ordinary Shares|S|N|N|100|N|N
@@ -5604,4 +5602,5 @@ ZXYZ.A|Nasdaq Symbology Test Common Stock|Q|Y|N|100|N|N
 ZXZZT|NASDAQ TEST STOCK|G|Y|N|100|N|N
 ZYBT|Zhengye Biotechnology Holding Limited - Class A Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
-File Creation Time: 1112202621:31|||||||
+ZYN|PTL LTD - Class A Ordinary Shares|S|N|N|100|N|N
+File Creation Time: 1113202621:31|||||||
