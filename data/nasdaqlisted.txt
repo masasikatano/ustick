@@ -1012,7 +1012,7 @@ CEG|Constellation Energy Corporation - Common Stock When-Issued|Q|N|N|40|N|N
 CELC|Celcuity Inc. - Common Stock|S|N|N|100|N|N
 CELH|Celsius Holdings, Inc. - Common Stock|S|N|N|100|N|N
 CELU|Celularity Inc. - Class A Common Stock|S|N|N|100|N|N
-CELZ|Creative Medical Technology Holdings, Inc. - Common Stock|S|N|N|100|N|N
+CELZ|Creative Medical Technology Holdings, Inc. - Common Stock|S|N|D|100|N|N
 CENN|Cenntro Inc. - Common Stock|S|N|N|100|N|N
 CENT|Central Garden & Pet Company - Common Stock|Q|N|N|100|N|N
 CENTA|Central Garden & Pet Company - Class A Common Stock Nonvoting|Q|N|N|100|N|N
@@ -1237,7 +1237,7 @@ CRDO|Credo Technology Group Holding Ltd - Ordinary Shares|Q|N|N|100|N|N
 CRE|Cre8 Enterprise Limited - Class A Ordinary Shares|S|N|N|100|N|N
 CRESY|Cresud S.A.C.I.F. y A. - American Depositary Shares, each representing ten shares of Common Stock|Q|N|N|100|N|N
 CREX|Creative Realities, Inc. - Common Stock|S|N|N|100|N|N
-CRGO|Freightos Limited - Ordinary shares|S|N|N|100|N|N
+CRGO|Freightos Limited - Ordinary shares|S|N|D|100|N|N
 CRGOW|Freightos Limited - Warrants|S|N|N|100|N|N
 CRIS|Curis, Inc. - Common Stock|S|N|D|100|N|N
 CRMD|CorMedix Inc. - Common Stock|G|N|N|100|N|N
@@ -1322,6 +1322,8 @@ CVV|CVD Equipment Corporation - Common Stock|S|N|N|100|N|N
 CWBC|Community West Bancshares - Common Stock|S|N|N|100|N|N
 CWCO|Consolidated Water Co. Ltd. - Ordinary Shares|Q|N|N|100|N|N
 CWD|CaliberCos Inc. - Class A Common Stock|S|N|D|100|N|N
+CWPD|CWP Premium Dividend ETF|G|N|N|100|Y|N
+CWPG|CWP Premium Growth ETF|G|N|N|100|Y|N
 CWST|Casella Waste Systems, Inc. - Class A Common Stock|Q|N|N|100|N|N
 CWY|GraniteShares YieldBOOST CRWV ETF|G|N|N|100|Y|N
 CXAI|CXApp Inc. - Class A Common Stock|S|N|N|100|N|N
@@ -1355,6 +1357,7 @@ DALI|First Trust Dorsey Wright DALI Equity ETF|G|N|N|100|Y|N
 DAPP|VanEck Digital Transformation ETF|G|N|N|100|Y|N
 DARE|Dare Bioscience, Inc. - Common Stock|S|N|D|100|N|N
 DASH|DoorDash, Inc. - Common Stock|Q|N|N|100|N|N
+DAU|GraniteShares Autocallable AMD ETF|G|N|N|100|Y|N
 DAVE|Dave Inc.  - Class A Common Stock|G|N|N|40|N|N
 DAVEW|Dave Inc.  - Warrants|G|N|N|100|N|N
 DAVI|Davion Healthcare Plc - Ordinary Shares|G|N|N|100|N|N
@@ -1447,6 +1450,7 @@ DOYU|DouYu International Holdings Limited - American Depositary Shares|Q|N|N|100
 DPRO|Draganfly Inc. - Common Shares|S|N|N|100|N|N
 DPU|Nexpu Ltd. - Class A Ordinary Shares|S|N|N|100|N|N
 DPZ|Domino's Pizza Inc - Common Stock|Q|N|N|40|N|N
+DRAC|GraniteShares Autocallable DRAM ETF|G|N|N|100|Y|N
 DRDB|Roman DBDR Acquisition Corp. II - Ordinary shares|G|N|D|100|N|N
 DRDBU|Roman DBDR Acquisition Corp. II - Unit|G|N|N|100|N|N
 DRDBW|Roman DBDR Acquisition Corp. II - Warrants|G|N|N|100|N|N
@@ -1491,7 +1495,6 @@ DUOL|Duolingo, Inc. - Class A Common Stock|Q|N|N|100|N|N
 DUOT|Duos Technologies Group, Inc. - Common Stock|S|N|N|100|N|N
 DUSG|U.S. Small Cap Growth Portfolio: ETF Class Shares|G|N|N|100|Y|N
 DVGR|DAC 3D Dividend Growth ETF|G|N|N|100|Y|N
-DVLT|Datavault AI Inc. - Common Stock|S|N|N|100|N|N
 DVLU|First Trust Dorsey Wright Momentum & Value ETF|G|N|N|100|Y|N
 DVOL|First Trust Dorsey Wright Momentum & Low Volatility ETF|G|N|N|100|Y|N
 DVQQ|WEBs QQQ Defined Volatility ETF|G|N|N|100|Y|N
@@ -2018,7 +2021,7 @@ GAVA|Grayscale Avalanche Staking ETF|G|N|N|100|Y|N
 GBC|Georgia Banking Company, Inc. - Common Stock|S|N|N|100|N|N
 GBDC|Golub Capital BDC, Inc. - Closed End Fund|Q|N|N|100|N|N
 GBFH|GBank Financial Holdings Inc. - Common Stock|S|N|N|100|N|N
-GBLI|Global Indemnity Group, LLC - Class A Common Shares|Q|N|N|100|N|N
+GBLI|Global Indemnity Group, LLC - Class A Common Shares|Q|N|D|100|N|N
 GBUG|Sprott Active Gold & Silver Miners ETF|G|N|N|100|Y|N
 GCBC|Greene Bancorp, Inc. - Common Stock|S|N|N|100|N|N
 GCGR|General Catalyst Global Resilience Merger Corp. - Class A Ordinary Shares|G|N|N|100|N|N
@@ -2113,6 +2116,7 @@ GLUE|Monte Rosa Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 GLWG|Leverage Shares 2X Long GLW Daily ETF|G|N|N|100|Y|N
 GLXG|Galaxy Payroll Group Limited - Class A Ordinary Shares|S|N|N|100|N|N
 GLXY|Galaxy Digital Inc. - Class A common stock|Q|N|N|100|N|N
+GM|General Motors Company - Common Stock|Q|N|N|100|N|N
 GMAB|Genmab A/S - American Depositary Shares|Q|N|N|100|N|N
 GMEX|GMEX ROBOTICS CORPORATION - Class A Ordinary Shares|S|N|N|100|N|N
 GMHS|Gamehaus Holdings Inc. - Class A Ordinary Shares|S|N|D|100|N|N
@@ -2197,7 +2201,7 @@ GSRVU|GSR V Acquisition Corp. - Units|G|N|N|100|N|N
 GSUN|Golden Sun Technology Group Limited - Class A Ordinary Shares|S|N|D|100|N|N
 GT|The Goodyear Tire & Rubber Company - Common Stock|Q|N|N|100|N|N
 GTBP|GT Biopharma, Inc. - Common Stock|S|N|N|100|N|N
-GTEC|Greenland Technologies Holding Corporation - Class A Ordinary Shares|S|N|N|100|N|N
+GTEC|Greenland Technologies Holding Corporation - Class A Ordinary Shares|S|N|D|100|N|N
 GTEN|Gores Holdings X, Inc. - Class A ordinary shares|G|N|N|100|N|N
 GTENU|Gores Holdings X, Inc. - Units|G|N|N|100|N|N
 GTENW|Gores Holdings X, Inc. - Warrants|G|N|N|100|N|N
@@ -2829,7 +2833,7 @@ KYNB|Kyntra Bio, Inc. - Common Stock|Q|N|D|100|N|N
 KYTX|Kyverna Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 KZIA|Kazia Therapeutics Limited - American Depositary Shares|S|N|N|100|N|N
 LAB|Standard BioTools Inc. - Common Stock|Q|N|D|100|N|N
-LABT|Lakewood-Amedex Biotherapeutics Inc. - Common Stock|S|N|N|100|N|N
+LABT|Lakewood-Amedex Biotherapeutics Inc. - Common Stock|S|N|D|100|N|N
 LAES|SEALSQ Corp - Ordinary Shares|Q|N|N|100|N|N
 LAFA|LaFayette Acquisition Corp. - Ordinary Share|G|N|N|100|N|N
 LAFAR|LaFayette Acquisition Corp. - Rights|G|N|N|100|N|N
@@ -3097,6 +3101,7 @@ MDRR|Medalist Diversified, Inc. - Common Stock|S|N|N|100|N|N
 MDWD|MediWound Ltd. - Ordinary Shares|G|N|N|100|N|N
 MDXG|MiMedx Group, Inc - Common Stock|S|N|N|100|N|N
 MDXH|MDxHealth SA - Ordinary Shares|S|N|D|100|N|N
+MEA|GraniteShares Autocallable META ETF|G|N|N|100|Y|N
 MEDP|Medpace Holdings, Inc. - Common Stock|Q|N|N|40|N|N
 MEDS|DataMeds AI, Inc. - Common Stock|S|N|N|100|N|N
 MEDX|Horizon Kinetics Medical ETF|G|N|N|100|Y|N
@@ -3489,6 +3494,7 @@ NSYS|Nortech Systems Incorporated - Common Stock|S|N|N|100|N|N
 NTAL|GraniteShares 2x Long NTAP Daily ETF|G|N|N|100|Y|N
 NTAP|NetApp, Inc. - Common Stock|Q|N|N|100|N|N
 NTCL|NETCLASS TECHNOLOGY INC - Class A Ordinary Shares|S|N|N|100|N|N
+NTCR|Nuveen Technology & Infrastructure Credit ETF|G|N|N|100|Y|N
 NTCT|NetScout Systems, Inc. - Common Stock|Q|N|N|100|N|N
 NTES|NetEase, Inc. - American Depositary Shares, each representing 5 ordinary shares|Q|N|N|100|N|N
 NTGR|NETGEAR, Inc. - Common Stock|Q|N|N|100|N|N
@@ -3513,7 +3519,7 @@ NUCLW|Eagle Nuclear Energy Corp. - Warrants|S|N|N|100|N|N
 NUGY|GraniteShares YieldBOOST Gold Miners ETF|G|N|N|100|Y|N
 NUIB|Nuveen Impact Bond ETF|G|N|N|100|Y|N
 NUIF|Nuveen US Infrastructure ETF|G|N|N|100|Y|N
-NUR|Nuran Wireless Inc. - Common Shares|S|N|N|100|N|N
+NUR|Nuran Wireless Inc. - Common Shares|S|N|D|100|N|N
 NUSB|Nuveen Ultra Short Income ETF|G|N|N|100|Y|N
 NUTX|Nutex Health Inc. - Common Stock|S|N|N|100|N|N
 NUWE|Nuwellis, Inc. - Common Stock|S|N|N|100|N|N
@@ -3797,6 +3803,7 @@ PCAPU|ProCap Acquisition Corp - Unit|G|N|N|100|N|N
 PCAPW|ProCap Acquisition Corp - Warrant|G|N|N|100|N|N
 PCAR|PACCAR Inc. - Common Stock|Q|N|N|100|N|N
 PCB|PCB Bancorp - Common Stock|Q|N|N|100|N|N
+PCHX|State Street SPDR Nasdaq MyPaycheck ETF|G|N|N|100|Y|N
 PCLA|PicoCELA Inc. - American Depositary Shares|S|N|N|100|N|N
 PCMM|BondBloxx Private Credit CLO ETF|G|N|N|100|Y|N
 PCPI|PIMCO Inflation PLUS Active Exchange-Traded Fund|G|N|N|100|Y|N
@@ -3875,6 +3882,7 @@ PIE|Invesco Dorsey Wright Emerging Markets Momentum ETF|G|N|N|100|Y|N
 PIII|P3 Health Partners Inc. - Class A Common Stock|S|N|N|100|N|N
 PIIIW|P3 Health Partners Inc. - Warrant|S|N|N|100|N|N
 PIO|Invesco Global Water ETF|G|N|N|100|Y|N
+PIVT|VanEck Pivotal Trends ETF|G|N|N|100|Y|N
 PIZ|Invesco Dorsey Wright Developed Markets Momentum ETF|G|N|N|100|Y|N
 PKBK|Parke Bancorp, Inc. - Common Stock|S|N|N|100|N|N
 PKOH|Park-Ohio Holdings Corp. - Common Stock|Q|N|N|100|N|N
@@ -3923,7 +3931,7 @@ PMTRW|Perimeter Acquisition Corp. I - Warrant|G|N|N|100|N|N
 PMTS|CPI Card Group Inc. - Common Stock|G|N|N|100|N|N
 PMVP|PMV Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
 PN|PN Smart Energy Limited - Class A Ordinary Shares|S|N|N|100|N|N
-PNBK|Patriot National Bancorp Inc. - Common Stock|G|N|N|100|N|N
+PNBK|Patriot National Bancorp Inc. - Common Stock|G|N|D|100|N|N
 PNQI|Invesco Nasdaq Internet ETF|G|N|N|100|Y|N
 PNRG|PrimeEnergy Resources Corporation - Common Stock|S|N|N|100|N|N
 PNTG|The Pennant Group, Inc. - Common Stock|Q|N|N|100|N|N
@@ -4268,7 +4276,6 @@ RJET|Republic Airways Holdings Inc. - Common Stock|Q|N|N|100|N|N
 RKDA|Arcadia Biosciences, Inc. - Common Stock|S|N|D|100|N|N
 RKLB|Rocket Lab Corporation - Common Stock|Q|N|N|100|N|N
 RKLX|Defiance Daily Target 2X Long RKLB ETF|G|N|N|100|Y|N
-RKLZ|Defiance Daily Target 2x Short RKLB ETF|G|N|N|100|Y|N
 RKNG|Defiance Retail Kings ETF|G|N|N|100|Y|N
 RKTO|Rocket One Inc. - Common Stock|S|N|D|100|N|N
 RLAY|Relay Therapeutics, Inc. - Common Stock|G|N|N|100|N|N
@@ -4482,7 +4489,7 @@ SGA|Saga Communications, Inc. - Class A Common Stock|G|N|N|100|N|N
 SGC|Superior Group of Companies, Inc. - Common Stock|G|N|N|100|N|N
 SGHT|Sight Sciences, Inc. - Common Stock|Q|N|N|100|N|N
 SGLD|Scorpio Gold Corporation - Common Stock|S|N|N|100|N|N
-SGLY|Singularity Future Technology Ltd. - Common Stock|S|N|N|100|N|N
+SGLY|Singularity Future Technology Ltd. - Common Stock|S|N|D|100|N|N
 SGML|Sigma Lithium Corporation - common shares|S|N|N|100|N|N
 SGMT|Sagimet Biosciences Inc. - Series A Common Stock|G|N|N|100|N|N
 SGP|SpyGlass Pharma, Inc. - Common Stock|Q|N|N|100|N|N
@@ -4493,7 +4500,7 @@ SHAZ|SharonAI Holdings, Inc. - Class A Common Stock|S|N|N|100|N|N
 SHBI|Shore Bancshares, Inc. - Common Stock|Q|N|N|100|N|N
 SHC|Sotera Health Company - Common Stock|Q|N|N|100|N|N
 SHEN|Shenandoah Telecommunications Co - Common Stock|Q|N|N|100|N|N
-SHFS|SHF Holdings, Inc. - Class A Common Stock|S|N|D|100|N|N
+SHFS|SHF Holdings, Inc. - Class A Common Stock|S|N|N|100|N|N
 SHFSW|SHF Holdings, Inc. - Warrants|S|N|N|100|N|N
 SHIM|Shimmick Corporation - Common Stock|S|N|N|100|N|N
 SHIP|Seanergy Maritime Holdings Corp. - Common Stock|S|N|N|100|N|N
@@ -5097,7 +5104,7 @@ UCTT|Ultra Clean Holdings, Inc. - Common Stock|Q|N|N|100|N|N
 UEIC|Universal Electronics Inc. - Common Stock|Q|N|N|100|N|N
 UEVM|VictoryShares Emerging Markets Value Momentum ETF|G|N|N|100|Y|N
 UFCS|United Fire Group, Inc - Common Stock|Q|N|N|100|N|N
-UFG|Uni-Fuels Holdings Limited - Class A Ordinary Shares|S|N|D|100|N|N
+UFG|Uni-Fuels Holdings Limited - Class A Ordinary Shares|S|N|N|100|N|N
 UFIV|US Treasury 5 Year Note ETF|G|N|N|100|Y|N
 UFO|Procure Space ETF|G|N|N|100|Y|N
 UFOX|Defiance Space and Connective Tech ETF|G|N|N|100|Y|N
@@ -5193,7 +5200,6 @@ VBCJ|Vanguard Target Maturity 2036 Corporate Bond ETF|G|N|N|100|Y|N
 VBIL|Vanguard 0-3 Month Treasury Bill ETF|G|N|N|100|Y|N
 VBIO|Valion Bio, Inc. - Common stock|S|N|N|100|N|N
 VBNB|VanEck BNB ETF|G|N|N|100|Y|N
-VBNK|VersaBank - Common Shares|Q|N|N|100|N|N
 VC|Visteon Corporation - Common Stock|Q|N|N|100|N|N
 VCEL|Vericel Corporation - Common Stock|G|N|N|100|N|N
 VCIG|VCI Global Limited - Ordinary Share|S|N|N|100|N|N
@@ -5288,6 +5294,7 @@ VRIG|Invesco Variable Rate Investment Grade ETF|G|N|N|100|Y|N
 VRM|Vroom, Inc. - Common Stock|G|N|N|100|N|N
 VRNS|Varonis Systems, Inc. - Common Stock|Q|N|N|100|N|N
 VRRM|Verra Mobility Corporation - Class A Common Stock|S|N|N|100|N|N
+VRSA|Versa Bancorp - Common Stock|Q|N|N|100|N|N
 VRSK|Verisk Analytics, Inc. - Common Stock|Q|N|N|100|N|N
 VRSN|VeriSign, Inc. - Common Stock|Q|N|N|40|N|N
 VRTL|GraniteShares 2x Long VRT Daily ETF|G|N|N|100|Y|N
@@ -5548,7 +5555,7 @@ YSKH|YieldMax SKHY Option Income Strategy ETF|G|N|N|100|Y|N
 YSPY|GraniteShares YieldBOOST SPY ETF|G|N|N|100|Y|N
 YSWY|Yesway, Inc. - Class A Common Stock|Q|N|N|100|N|N
 YSXT|YSX Tech. Co., Ltd  - Class A Ordinary Shares|S|N|N|100|N|N
-YTRA|Yatra Online, Inc. - Ordinary Shares|S|N|N|100|N|N
+YTRA|Yatra Online, Inc. - Ordinary Shares|S|N|D|100|N|N
 YXT|YXT.COM GROUP HOLDING LIMITED - American Depository Shares|G|N|N|100|N|N
 YYAI|AiRWA Inc. - Common Stock|S|N|N|100|N|N
 Z|Zillow Group, Inc. - Class C Capital Stock|Q|N|N|100|N|N
@@ -5601,4 +5608,4 @@ ZXZZT|NASDAQ TEST STOCK|G|Y|N|100|N|N
 ZYBT|Zhengye Biotechnology Holding Limited - Class A Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYN|PTL LTD - Class A Ordinary Shares|S|N|N|100|N|N
-File Creation Time: 1116202621:31|||||||
+File Creation Time: 1117202621:31|||||||
