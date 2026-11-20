@@ -338,6 +338,7 @@ ANNA|AleAnna, Inc. - Class A Common Stock|S|N|N|100|N|N
 ANNAW|AleAnna, Inc. - Warrant|S|N|N|100|N|N
 ANNX|Annexon, Inc. - common stock|Q|N|N|100|N|N
 ANPA|Rich Sparkle Holdings Limited - Ordinary Shares|S|N|N|100|N|N
+ANT|Anthropic, PBC - Class A Common Stock|Q|N|N|100|N|N
 ANTA|Antalpha Platform Holding Company - Class A Ordinary Shares|G|N|N|100|N|N
 ANTX|AN2 Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 ANV|GraniteShares Autocallable NVDA ETF|G|N|N|100|Y|N
@@ -1157,7 +1158,7 @@ CNOBP|ConnectOne Bancorp, Inc. - Depositary Shares (each representing a 1/40th i
 CNQQ|Rayliant-ChinaAMC Transformative China Tech ETF|G|N|N|100|Y|N
 CNSP|CNS Pharmaceuticals, Inc. - Common Stock|S|N|N|100|N|N
 CNSY|Cerenome, Inc. - Common Stock|S|N|N|100|N|N
-CNTB|Connect Biopharma Holdings Limited - Ordinary Shares|G|N|N|100|N|N
+CNTB|Connect Biopharma Holdings Limited - Ordinary Shares|G|N|D|100|N|N
 CNTN|Canton Strategic Holdings, Inc. - Common Stock|S|N|N|100|N|N
 CNTX|Context Therapeutics Inc. - Common Stock|S|N|D|100|N|N
 CNTY|Century Casinos, Inc. - Common Stock|S|N|D|100|N|N
@@ -1620,6 +1621,7 @@ ENTG|Entegris, Inc. - Common Stock|Q|N|N|100|N|N
 ENTX|Entera Bio Ltd. - Ordinary Shares|S|N|N|100|N|N
 ENVB|Enveric Biosciences, Inc.  - Common Stock|S|N|N|100|N|N
 ENVX|Enovix Corporation - Common Stock|Q|N|N|100|N|N
+ENVXW|Enovix Corporation - Warrants|Q|N|N|100|N|N
 ENZL|iShares MSCI New Zealand ETF|G|N|N|100|Y|N
 EOCN|Eocene Ltd. - Ordinary Shares|S|N|N|100|N|N
 EOLS|Evolus, Inc. - Common Stock|G|N|N|100|N|N
@@ -1763,6 +1765,9 @@ FCUV|Focus Universal Inc. - Common Stock|S|N|N|100|N|N
 FCVT|First Trust SSI Strategic Convertible Securities ETF|G|N|N|100|Y|N
 FDBC|Fidelity D & D Bancorp, Inc. - Common Stock|G|N|N|100|N|N
 FDCF|Fidelity Disruptive Communications ETF|G|N|N|100|Y|N
+FDGX|First Digital Acquisition Corp Ltd. - Class A Ordinary Shares|G|N|N|100|N|N
+FDGXU|First Digital Acquisition Corp Ltd. - Units|G|N|N|100|N|N
+FDGXW|First Digital Acquisition Corp Ltd. - Warrants|G|N|N|100|N|N
 FDIG|Fidelity Crypto Industry and Digital Payments ETF|G|N|N|100|Y|N
 FDIQ|Invesco Bloomberg Financial Data Providers ETF|G|N|N|100|Y|N
 FDIV|MarketDesk Focused U.S. Dividend ETF|G|N|N|100|Y|N
@@ -2796,9 +2801,6 @@ KOD|Kodiak Sciences Inc - Common Stock|G|N|N|100|N|N
 KOID|KraneShares Global Humanoid Robotics and Physical AI Index ETF|G|N|N|100|Y|N
 KOPN|Kopin Corporation - Common Stock|S|N|N|100|N|N
 KOSS|Koss Corporation - Common Stock|S|N|N|100|N|N
-KOYN|CSLM Digital Asset Acquisition Corp III - Class A Ordinary Shares|G|N|N|100|N|N
-KOYNU|CSLM Digital Asset Acquisition Corp III - Units|G|N|N|100|N|N
-KOYNW|CSLM Digital Asset Acquisition Corp III - Warrants|G|N|N|100|N|N
 KPLT|Katapult Holdings, Inc. - Common Stock|G|N|N|100|N|N
 KPRX|Kiora Pharmaceuticals, Inc.  - Common Stock|S|N|N|100|N|N
 KQQQ|Kurv Technology Titans Select ETF|G|N|N|100|Y|N
@@ -3114,7 +3116,7 @@ MEMA|Man Active Emerging Markets Alternative ETF|G|N|N|100|Y|N
 MEMS|Matthews Emerging Markets Discovery Active ETF|G|N|N|100|Y|N
 MENS|Jyong Biotech Ltd. - Ordinary shares|G|N|N|100|N|N
 MEOH|Methanex Corporation - Common Stock|Q|N|N|100|N|N
-MERC|Mercer International Inc. - Common Stock|Q|N|D|100|N|N
+MERC|Mercer International Inc. - Common Stock|Q|N|N|100|N|N
 MESH|Meshflow Acquisition Corp. - Class A Ordinary Shares|G|N|N|100|N|N
 MESHU|Meshflow Acquisition Corp. - Units|G|N|N|100|N|N
 MESHW|Meshflow Acquisition Corp. - Warrants|G|N|N|100|N|N
@@ -3770,7 +3772,7 @@ PANW|Palo Alto Networks, Inc. - Common Stock|Q|N|N|40|N|N
 PARA|Parabolic Technologies, Inc. - Class A Common Stock|S|N|D|100|N|N
 PARAW|Parabolic Technologies, Inc. - Warrant|S|N|N|100|N|N
 PARK|Park Dental Partners, Inc. - Common Stock|S|N|N|100|N|N
-PASG|Passage Bio, Inc. - Common Stock|S|N|N|100|N|N
+PASG|Passage Bio, Inc. - Common Stock|S|N|D|100|N|N
 PASW|Ping An Biomedical Co., Ltd. - Class A Ordinary Shares|S|N|N|100|N|N
 PATK|Patrick Industries, Inc. - Common Stock|Q|N|N|100|N|N
 PATN|Pacer Nasdaq International Patent Leaders ETF|G|N|N|100|Y|N
@@ -4425,7 +4427,6 @@ SCHL|Scholastic Corporation - Common Stock|Q|N|N|100|N|N
 SCII|SC II Acquisition Corp. - Class A ordinary share|G|N|N|100|N|N
 SCIIR|SC II Acquisition Corp. - Rights|G|N|N|100|N|N
 SCIIU|SC II Acquisition Corp. - Units|G|N|N|100|N|N
-SCKT|Socket Mobile, Inc. - Common Stock|S|N|N|100|N|N
 SCLX|Scilex Holding Company - Common Stock|S|N|N|100|N|N
 SCLXW|Scilex Holding Company - Warrant|S|N|N|100|N|N
 SCNI|Scinai Immunotherapeutics Ltd. - American Depositary Shares|S|N|N|100|N|N
@@ -4707,7 +4708,6 @@ SSNC|SS&C Technologies Holdings, Inc. - Common Stock|Q|N|N|100|N|N
 SSP|E.W. Scripps Company (The) - Class A Common Stock|Q|N|N|100|N|N
 SSRM|SSR Mining Inc. - Common Stock|Q|N|N|100|N|N
 SSS|CYBER HORNET S&P 500 and Solana 75/25 Strategy ETF|G|N|N|100|Y|N
-SSTI|SoundThinking, Inc. - Common Stock|S|N|N|100|N|N
 SSYS|Stratasys, Ltd. - Common Stock|Q|N|N|100|N|N
 STAA|STAAR Surgical Company - Common Stock|G|N|N|100|N|N
 STAK|STAK Inc. - Class A Ordinary Shares|S|N|N|100|N|N
@@ -5609,4 +5609,4 @@ ZXZZT|NASDAQ TEST STOCK|G|Y|N|100|N|N
 ZYBT|Zhengye Biotechnology Holding Limited - Class A Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYN|PTL LTD - Class A Ordinary Shares|S|N|N|100|N|N
-File Creation Time: 1118202621:31|||||||
+File Creation Time: 1119202621:31|||||||
