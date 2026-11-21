@@ -25,6 +25,7 @@ AAPL|Apple Inc. - Common Stock|Q|N|N|40|N|N
 AAPU|Direxion Daily AAPL Bull 2X ETF|G|N|N|100|Y|N
 AARD|Aardvark Therapeutics, Inc. - Common Stock|Q|N|N|100|N|N
 AAUB|Alpha Architect US Equity 4 ETF|G|N|N|100|Y|N
+AAUD|Alpha Architect US Equity 5 ETF|G|N|N|100|Y|N
 AAUS|Alpha Architect US Equity ETF|G|N|N|100|Y|N
 AAVM|Alpha Architect Global Factor Equity ETF|G|N|N|100|Y|N
 AAXJ|iShares MSCI All Country Asia ex Japan ETF|G|N|N|100|Y|N
@@ -262,7 +263,7 @@ ALOVU|Aldabra 4 Liquidity Opportunity Vehicle, Inc. - Units|G|N|N|100|N|N
 ALOVW|Aldabra 4 Liquidity Opportunity Vehicle, Inc. - Warrants|G|N|N|100|N|N
 ALOY|REalloys Inc. - Common Stock|S|N|N|100|N|N
 ALP|Alpha Compute Corp  - Ordinary Shares|S|N|N|100|N|N
-ALPS|ALPS Group Inc - Ordinary Share|G|N|D|100|N|N
+ALPS|ALPS Group Inc - Ordinary Share|G|N|N|100|N|N
 ALPX|Alpex Acquisition Corporation - Class A Ordinary Shares|G|N|N|100|N|N
 ALPXR|Alpex Acquisition Corporation - Rights|G|N|N|100|N|N
 ALPXU|Alpex Acquisition Corporation - Units|G|N|N|100|N|N
@@ -303,7 +304,6 @@ AMLX|Amylyx Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
 AMOD|Alpha Modus Holdings, Inc. - Class A Common Stock|S|N|N|100|N|N
 AMODW|Alpha Modus Holdings, Inc. - Warrant|S|N|N|100|N|N
 AMPG|Amplitech Group, Inc. - Common Stock|S|N|N|100|N|N
-AMPGZ|Amplitech Group, Inc. - Series B Right|S|N|N|100|N|N
 AMPH|Amphastar Pharmaceuticals, Inc. - Common Stock|Q|N|N|100|N|N
 AMPL|Amplitude, Inc. - Class A Common Stock|S|N|N|100|N|N
 AMRN|Amarin Corporation plc - American Depositary Shares|S|N|N|100|N|N
@@ -1346,6 +1346,7 @@ CZFS|Citizens Financial Services, Inc. - Common Stock|S|N|N|100|N|N
 CZNC|Citizens & Northern Corp - Common Stock|S|N|N|100|N|N
 CZR|Caesars Entertainment, Inc. - Common Stock|Q|N|N|100|N|N
 CZWI|Citizens Community Bancorp, Inc. - Common Stock|G|N|N|100|N|N
+CZZL|Cizzle Brands Corporation - Common Stock|S|N|N|100|N|N
 DAAQ|Digital Asset Acquisition Corp. - Class A Ordinary shares|G|N|N|100|N|N
 DAAQU|Digital Asset Acquisition Corp. - Units|G|N|N|100|N|N
 DAAQW|Digital Asset Acquisition Corp. - Warrant|G|N|N|100|N|N
@@ -2435,7 +2436,7 @@ IBB|iShares Biotechnology ETF|G|N|N|100|Y|N
 IBBQ|Invesco Nasdaq Biotechnology ETF|G|N|N|100|Y|N
 IBCP|Independent Bank Corporation - Common Stock|Q|N|N|100|N|N
 IBEX|IBEX Limited - Common Share|G|N|N|100|N|N
-IBG|Innovation Beverage Group Limited - Ordinary Shares|S|N|D|100|N|N
+IBG|Innovation Beverage Group Limited - Ordinary Shares|S|N|N|100|N|N
 IBGA|iShares iBonds Dec 2044 Term Treasury ETF|G|N|N|100|Y|N
 IBGB|iShares iBonds Dec 2045 Term Treasury ETF|G|N|N|100|Y|N
 IBGC|iShares iBonds Dec 2046 Term Treasury ETF|G|N|N|100|Y|N
@@ -2643,6 +2644,7 @@ IRWD|Ironwood Pharmaceuticals, Inc. - Class A Common Stock|Q|N|N|100|N|N
 ISBA|Isabella Bank Corporation - Common stock|S|N|N|100|N|N
 ISHG|iShares 1-3 Year International Treasury Bond ETF|G|N|N|100|Y|N
 ISHP|First Trust S-Network E-Commerce ETF|G|N|N|100|Y|N
+ISMH|xETFs International Semiconductor ETF|G|N|N|100|Y|N
 ISNR|Snow Rothschild Acquisition Corp. - Class A Ordinary Shares|G|N|N|100|N|N
 ISNRU|Snow Rothschild Acquisition Corp. - Units|G|N|N|100|N|N
 ISNRW|Snow Rothschild Acquisition Corp. - Warrants|G|N|N|100|N|N
@@ -3116,7 +3118,6 @@ MEMA|Man Active Emerging Markets Alternative ETF|G|N|N|100|Y|N
 MEMS|Matthews Emerging Markets Discovery Active ETF|G|N|N|100|Y|N
 MENS|Jyong Biotech Ltd. - Ordinary shares|G|N|N|100|N|N
 MEOH|Methanex Corporation - Common Stock|Q|N|N|100|N|N
-MERC|Mercer International Inc. - Common Stock|Q|N|N|100|N|N
 MESH|Meshflow Acquisition Corp. - Class A Ordinary Shares|G|N|N|100|N|N
 MESHU|Meshflow Acquisition Corp. - Units|G|N|N|100|N|N
 MESHW|Meshflow Acquisition Corp. - Warrants|G|N|N|100|N|N
@@ -3241,7 +3242,7 @@ MRDN|Meridian Holdings Inc. - Common Stock|S|N|N|100|N|N
 MREO|Mereo BioPharma Group plc - American Depositary Shares|S|N|D|100|N|N
 MRKR|Marker Therapeutics, Inc. - Common Stock|S|N|N|100|N|N
 MRLN|Merlin, Inc. - Common Stock|G|N|N|100|N|N
-MRM|MEDIROM Healthcare Technologies Inc. - American Depositary Share|S|N|H|100|N|N
+MRM|MEDIROM Healthcare Technologies Inc. - American Depositary Share|S|N|D|100|N|N
 MRNA|Moderna, Inc. - Common Stock|Q|N|N|100|N|N
 MRNO|Murano Global Investments PLC - Ordinary Shares|S|N|D|100|N|N
 MRNOW|Murano Global Investments PLC - Warrants|S|N|N|100|N|N
@@ -3330,7 +3331,7 @@ MYML|State Street My2032 Municipal Bond ETF|G|N|N|100|Y|N
 MYPS|PLAYSTUDIOS, Inc.  - Class A Common Stock|S|N|N|100|N|N
 MYRG|MYR Group, Inc. - Common Stock|Q|N|N|40|N|N
 MYSE|Myseum.AI, Inc. - Common Stock|S|N|N|100|N|N
-MYSZ|My Size, Inc. - Common Stock|S|N|D|100|N|N
+MYSZ|My Size, Inc. - Common Stock|S|N|N|100|N|N
 MYX|Maywood Acquisition Corp. 2 - Class A Ordinary Share|G|N|N|100|N|N
 MYXXR|Maywood Acquisition Corp. 2 - Rights|G|N|N|100|N|N
 MYXXU|Maywood Acquisition Corp. 2 - Units|G|N|N|100|N|N
@@ -3670,9 +3671,6 @@ OPAL|OPAL Fuels Inc. - Class A Common Stock|S|N|N|100|N|N
 OPBK|OP Bancorp - Common Stock|G|N|N|100|N|N
 OPCH|Option Care Health, Inc. - Common Stock|Q|N|N|100|N|N
 OPEN|Opendoor Technologies Inc  - Common Stock|Q|N|N|100|N|N
-OPENL|Opendoor Technologies Inc  - Series A Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $13.00 per warrant|Q|N|N|100|N|N
-OPENW|Opendoor Technologies Inc  - Series K Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $9.00 per warrant|Q|N|N|100|N|N
-OPENZ|Opendoor Technologies Inc  - Series Z Warrants, each whole warrant exercisable to purchase one share of Common Stock at an exercise price of $17.00 per warrant|Q|N|N|100|N|N
 OPHI|CollPlant Biotechnologies Ltd. - Ordinary Shares|S|N|N|100|N|N
 OPI|Office Properties Income Trust - Common shares of beneficial interest|S|N|N|100|N|N
 OPK|Opko Health, Inc. - Common Stock|Q|N|N|100|N|N
@@ -5609,4 +5607,4 @@ ZXZZT|NASDAQ TEST STOCK|G|Y|N|100|N|N
 ZYBT|Zhengye Biotechnology Holding Limited - Class A Ordinary Shares|S|N|N|100|N|N
 ZYME|Zymeworks Inc. - Common Stock|Q|N|N|100|N|N
 ZYN|PTL LTD - Class A Ordinary Shares|S|N|N|100|N|N
-File Creation Time: 1119202621:31|||||||
+File Creation Time: 1120202621:31|||||||
