@@ -108,6 +108,21 @@
       return `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日 ${ampm}${h12}時${p(d.getMinutes())}分`;
     }
 
+    // 次回更新: JST 火〜土 14:30 の cron（米国市場の休場日は考慮しない簡易表示）。
+    function nextUpdate() {
+      const nowJst = new Date(new Date().toLocaleString("en-US", { timeZone: "Asia/Tokyo" }));
+      const d = new Date(nowJst);
+      const todayRun = (d.getDay() >= 2 && d.getDay() <= 6) &&
+        (d.getHours() < 14 || (d.getHours() === 14 && d.getMinutes() < 30));
+      if (!todayRun) {
+        d.setDate(d.getDate() + 1);
+        while (d.getDay() === 0 || d.getDay() === 1) d.setDate(d.getDate() + 1);
+      }
+      d.setHours(14, 30, 0, 0);
+      const wd = ["日", "月", "火", "水", "木", "金", "土"][d.getDay()];
+      return `${d.getFullYear()}年${d.getMonth() + 1}月${d.getDate()}日（${wd}）午後2時30分`;
+    }
+
     function row(item) {
       const price = item.price || null;
       const chg = signed(price && price.change_pct);
@@ -161,7 +176,7 @@
       }
       DATA = await res.json();
       document.getElementById("meta").textContent =
-        `最終更新: ${fmtJst(DATA.generated_at)}　銘柄数: ${DATA.count ?? "—"}　該当: ${(DATA.items || []).filter(isPotent).length} 銘柄`;
+        `最終更新: ${fmtJst(DATA.generated_at)}　次回更新: ${nextUpdate()}（火〜土14:30 JST・休場日除く）　銘柄数: ${DATA.count ?? "—"}　該当: ${(DATA.items || []).filter(isPotent).length} 銘柄`;
       const banner = document.getElementById("banner");
       if (DATA.reference_note) {
         banner.hidden = false;
